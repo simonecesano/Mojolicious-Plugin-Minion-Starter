@@ -1,5 +1,7 @@
 package Mojolicious::Plugin::Minion::Starter;
 
+# ABSTRACT: start/stop minion workers with the Mojolicious server
+
 use Mojo::Base 'Mojolicious::Plugin', -signatures;
 
 my $app;
